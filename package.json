@@ -1,16 +1,24 @@
 {
-  "name": "restaurant",
+  "name": "restaurantTheme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredGarcia00/restaurant.git"
+  },
   "keywords": [],
   "author": "",
-  "homepage": "https://FredGarcia00.github.io/restaurant",
   "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^3.1.0"
+  "homepage":"https://FredGarcia00.github.io/restaurantwebsite",
+  "bugs": {
+    "url": "https://github.com/FredGarcia00/restaurant/issues"
   }
 }
