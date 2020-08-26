@@ -1,0 +1,44 @@
+/* .jumbo_container {
+    width: 100%;
+} */
+
+.jumbo {
+    display: flex;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.jumbo .main_title {
+    line-height: 1;
+    word-spacing:5px;
+    position: absolute;
+    top: 200px;
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.jumbo .main_title .button {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.jumbo .main_title a{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: solid #fff;
+}
+
+.jumbo img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-size: cover;
+    opacity: .7;
+    z-index: 1;
+}

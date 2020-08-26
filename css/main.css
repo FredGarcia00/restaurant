@@ -1,0 +1,26 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'jumbo.css';
+@import 'info.css';
+@import 'menu.css';
+@import 'events.css';
+@import 'ingredients.css';
+@import 'reservation.css';
+@import 'footer.css';
+@import 'mediaQueries.css';
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #171717; */
+    
+}
+
+
+
+.container {
+    overflow: hidden;
+    max-width: 1059px;
+    margin: 0 auto;
+}
