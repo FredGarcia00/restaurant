@@ -1,0 +1,31 @@
+.ingredients {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.ingredients_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 250px;
+}
+
+.ingredients_section .ingredient_title {
+    font-size: 2.4rem;
+    color: #87715E;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.ingredient_subtitle {
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.ingredients_section p {
+    line-height: 25px;
+}

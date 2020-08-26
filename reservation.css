@@ -1,0 +1,51 @@
+.reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reservation .r-title {
+    top: 60px;
+}
+
+.reservation .r_title {
+    /* left: 195px; */
+    position: relative;
+    top: -25px;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+
+}
+.reservation img {
+    height: 405px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    opacity: .4;
+}
+
+.reservation .book {
+    font-weight: 700;
+
+}
+
+.reservation .reservation_info {
+    font-size: 3.5rem;
+    position: absolute;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.reservation .book_button {
+    position: absolute;
+    top: 180px;
+    padding: 15px;
+    border: 1px solid #fff;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    /* left: 107px; */
+
+}

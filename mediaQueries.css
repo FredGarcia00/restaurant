@@ -1,0 +1,31 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background: red;
+   
+}
+
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: yellow;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* mobile large phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        background: blue;
+    }
+}
+/* small phones */
+@media (min-width: 1px) and (max-width: 575px) {
+    body {
+        background: green;
+    }
+}
